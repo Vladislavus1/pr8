@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>Log in</title>
+</head>
+<body>
+<h1>Log in</h1>
+<div>
+    <form action="signup" method="post">
+            <b>{{ form.nickname.label }}</b> <br>
+            {{ form.nickname }}
+            <b>{{ form.password.label }}</b> <br>
+            {{ form.password }} <br>
+            {{ form.submit }} <br>
+        </form>
+</div>
+</body>
+</html>
