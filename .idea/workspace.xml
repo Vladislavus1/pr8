@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6918d490-88f2-4dde-b7cf-85c5995c8b59" name="Changes" comment="" />
+    <list default="true" id="6918d490-88f2-4dde-b7cf-85c5995c8b59" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db_controls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/db_controls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/api/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/custom_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/templates/custom_error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/text_help2" beforeDir="false" afterPath="$PROJECT_DIR$/text_help2" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +29,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/text_help2" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LsJ5pWUmc6jCHj6MyJlKfLh8AJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,19 +49,23 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/tvtes/AppData/Local/Programs/Python/pythonProject8"
+    "last_opened_file_path": "C:/Users/tvtes/AppData/Local/Programs/Python/pythonProject8",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JavaScript",
       "CSS"
     ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8\app\static" />
-      <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8\app" />
+      <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8\front_end" />
       <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8" />
+      <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8\api" />
+      <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8\app" />
+      <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8\app\static" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,5 +78,16 @@
       <updated>1676653675775</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

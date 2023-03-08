@@ -30,7 +30,7 @@ class Event(Base, UserMixin):
     date = Column("date", Date)
     time = Column("time", Time, nullable=True)
     header = Column("header", String(80))
-    descritpion = Column("description", String(240), nullable=True)
+    description = Column("description", String(240), nullable=True)
     user = Column("user", Integer, ForeignKey("users.id"))
 
     def __init__(self, date, time, header, description, user):
@@ -38,7 +38,7 @@ class Event(Base, UserMixin):
         self.date = date
         self.time = time
         self.header = header
-        self.descritpion = description
+        self.description = description
         self.user = user
 
 Base.metadata.create_all(engine)

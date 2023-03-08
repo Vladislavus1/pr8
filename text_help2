@@ -1,0 +1,51 @@
+За прикладом того, що ми створили на цьому уроці написати маршрут на сервері,
+який буде приймати post-запити та створити форму на клієнті з двома будь-якими інпутами,
+яка буде ці дані отримувати від юзера.
+В JS цю форму потрібно отримати та відправити її дані на сервер за тією адресою,
+яку ви створите. Назвіть маршрут homework, наприклад, так як це завдання потрібно для того,
+щоб попрактикуватись з запитами і міграціями даних з клієнта на сервер.
+Майже весь код можна скопіювати і змінити тільки дрібні деталі,
+але щоб зрозуміти що саме змінити і доведеться зрозуміти як це все працює.
+
+Сюди прикріпіть скріни того,
+що вам приходить на сервер(виведіть це прінтом) та response в консолі.
+
+window.onload = (event) => {
+    console.log("http://127.0.0.1:5000/get_events_by_date/123")
+    const apiUrlGet = 'http://127.0.0.1:5000/get_events_by_date/123';
+    const apiUrlPost = 'http://127.0.0.1:5000/create_event';
+
+
+    fetch(apiUrlGet, {
+        method: "GET",})
+      .then(response => response.json())
+      .then(data => {
+        console.log(data); // вивести дані в консоль
+      })
+      .catch(error => {
+        console.error('Помилка:', error);
+      });
+
+
+    const form = document.getElementById("event-form");
+
+    form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        const data = {};
+
+        for (const[key, value] of formData.entries()) {
+            data[key] = value;
+        }
+
+        fetch(apiUrlPost, {
+            method: "POST",
+            headers: {"Content-type": "application/json"},
+            body: JSON.stringify(data)
+        })
+        .then(data => console.log(data))
+        .catch(error => console.error('Помилка:', error));
+    })
+
+}
