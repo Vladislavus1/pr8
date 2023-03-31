@@ -3,19 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="6918d490-88f2-4dde-b7cf-85c5995c8b59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/app/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/app/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/app/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/db_controls.py" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/app/db_controls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/front_end/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/app_home.js" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/front_end/app_home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/home_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/front_end/home_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/front_end/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/front_end/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/appiton/front_end/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appiton/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appiton/app/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appiton/app/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appiton/app/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appiton/app/db_controls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/db_controls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appiton/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appiton/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appiton/app/unittests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/unittests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appiton/front_end/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appiton/front_end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appiton/front_end/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appiton/front_end/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,67 +61,67 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8" />
       <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8\appiton\front_end\static" />
       <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8\appiton" />
       <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8\front_end" />
-      <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8" />
       <recent name="C:\Users\tvtes\AppData\Local\Programs\Python\pythonProject8\api" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests in unittests.py">
-    <configuration name="Python tests for unittests.TestCalendarAPI" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for app.unittests.TestCalendarAPI" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject111" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appiton/app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittests.TestCalendarAPI&quot;" />
+      <option name="_new_target" value="&quot;app.unittests.TestCalendarAPI&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for unittests.TestCalendarAPI.test4_delete_created_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for app.unittests.TestCalendarAPI.test4_delete_created_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject111" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appiton/app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittests.TestCalendarAPI.test4_delete_created_user&quot;" />
+      <option name="_new_target" value="&quot;app.unittests.TestCalendarAPI.test4_delete_created_user&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for unittests.TestCalendarAPI.test5_create_events" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for app.unittests.TestCalendarAPI.test5_create_events" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject111" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appiton/app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittests.TestCalendarAPI.test5_create_events&quot;" />
+      <option name="_new_target" value="&quot;app.unittests.TestCalendarAPI.test5_create_events&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for unittests.TestCalendarAPI.test6_check_events" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for app.unittests.TestCalendarAPI.test6_check_events" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject111" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appiton/app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittests.TestCalendarAPI.test6_check_events&quot;" />
+      <option name="_new_target" value="&quot;app.unittests.TestCalendarAPI.test6_check_events&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -131,22 +130,22 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appiton/app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/appiton/app/unittests.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/app/unittests.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in unittests.py" />
-        <item itemvalue="Python tests.Python tests for unittests.TestCalendarAPI.test4_delete_created_user" />
-        <item itemvalue="Python tests.Python tests for unittests.TestCalendarAPI.test6_check_events" />
-        <item itemvalue="Python tests.Python tests for unittests.TestCalendarAPI.test5_create_events" />
-        <item itemvalue="Python tests.Python tests for unittests.TestCalendarAPI" />
+        <item itemvalue="Python tests.Python tests for app.unittests.TestCalendarAPI.test4_delete_created_user" />
+        <item itemvalue="Python tests.Python tests for app.unittests.TestCalendarAPI.test6_check_events" />
+        <item itemvalue="Python tests.Python tests for app.unittests.TestCalendarAPI.test5_create_events" />
+        <item itemvalue="Python tests.Python tests for app.unittests.TestCalendarAPI" />
       </list>
     </recent_temporary>
   </component>
