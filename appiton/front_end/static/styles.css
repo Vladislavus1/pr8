@@ -1,0 +1,40 @@
+body {
+    background: #7a9acf
+}
+
+h3 {
+    background: #97b1db;
+    border-radius: 15px;
+    margin: 1px 15px;
+
+}
+
+div {
+    background: #97b1db;
+    border-radius: 15px;
+    margin: 1px;
+    fonr:initial;
+
+}
+#event-form {
+    background: #97b1db;
+    border-radius: 15px;
+    margin: 1px;
+    fonr:initial;
+}
+
+input {
+    background: #2a4a7d;
+    border: #2a4a7d;
+    border-radius: 15px;
+}
+label {
+    background: #0c60eb;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+input:hover {
+    background: aliceblue
+
+}
