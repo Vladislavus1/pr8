@@ -1,10 +1,10 @@
 window.onload = (event) => {
 
     const routes = [
-        {path: '/', handler: homeHandler},
-        {path: '/index.html', handler: homeHandler},
-        {path: '/login.html', handler: loginHandler},
-        {path: '/signup.html', handler: signupHandler}
+        {path: 'https://vladislavus1.github.io/pr8/', handler: homeHandler},
+        {path: 'https://vladislavus1.github.io/pr8/index.html', handler: homeHandler},
+        {path: 'https://vladislavus1.github.io/pr8/login.html', handler: loginHandler},
+        {path: 'https://vladislavus1.github.io/pr8/signup.html', handler: signupHandler}
     ]
 
     handleUrlChange();

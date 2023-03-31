@@ -27,6 +27,9 @@ def func1():
     response = make_response(jsonify(data))
     return response
 
+@app.route("/test")
+def index():
+    return "test works!"
 
 @app.route("/homeworkPost", methods=["POST"])
 def func2():
